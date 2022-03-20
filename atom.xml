@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lookrs.github.io</id>
     <title>Gridea</title>
-    <updated>2022-03-20T16:05:23.272Z</updated>
+    <updated>2022-03-20T16:16:22.570Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lookrs.github.io"/>
     <link rel="self" href="https://lookrs.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://lookrs.github.io/post/mydesktop/">
         </link>
         <updated>2022-03-20T13:37:24.000Z</updated>
-        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://github.com/ZoeyWendelin/post-images/1647783474139.png" alt="" loading="lazy"></figure>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lookrs.github.io/post-images/1647783474139.png" alt="" loading="lazy"></figure>
 <h2 id="dasdasd">dasdasd</h2>
 ]]></summary>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lookrs.github.io/post-images/1647783474139.png" alt="" loading="lazy"></figure>
@@ -27,7 +27,15 @@
 哇哈哈哈哈哈哈哈<br>
 哇哈哈哈哈哈哈哈<br>
 哇哈哈哈哈哈哈哈</p>
-<p>哇哈哈哈哈哈哈哈哇哈哈哈哈哈哈哈<br>
+<p>第二种是只针对 github 进行代理。</p>
+<p>配置完成之后，我们 clone 别人仓库的时候使用 https 协议就会非常快了。</p>
+<p>然后 ssh 部分就有问题了，我是在 Windows10 + wsl1 的环境下配置的，结果 ssh 那部分死活就是不成功。<br>
+之前网上的 git 教程在讲到配置自己项目的 github 远程仓库时，都是让大家用 ssh 协议，似乎 push/pull 只能用 ssh 协议似的，但其实不是，用 HTTPS 协议同样可以完成所有的任务，尤其 ssh 又搞不定的时候！所以这里我直接放弃 ssh 的方案了，这样反而简单了。</p>
+<p>具体方法再给一个教程：把你的github操作从ssh转成https</p>
+<p>修改自己远程仓库的地址：</p>
+<p>git remote set-url origin https://xxxxx #your https repo url<br>
+配置 HTTPS 免输入密码：</p>
+<p>git config --global credential.helper store<br>
 <img src="https://lookrs.github.io/post-images/1647784784190.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
