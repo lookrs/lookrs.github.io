@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lookrs.github.io</id>
     <title>lookr</title>
-    <updated>2022-03-21T04:16:10.856Z</updated>
+    <updated>2022-03-25T16:17:44.543Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lookrs.github.io"/>
     <link rel="self" href="https://lookrs.github.io/atom.xml"/>
@@ -16,8 +16,7 @@
         <link href="https://lookrs.github.io/post/about/">
         </link>
         <updated>2022-03-21T01:39:51.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<blockquote>
+        <content type="html"><![CDATA[<blockquote>
 <p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
 </blockquote>
 <h2 id="关于本站">🏠 关于本站</h2>

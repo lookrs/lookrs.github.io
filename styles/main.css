@@ -12747,6 +12747,6 @@ html[xmlns] .flexslider .slides {
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(182, 173, 173, 0.5);
+    -webkit-box-shadow: inset 0 0 6px rgb(12 121 123 / 50%);
 }
     
